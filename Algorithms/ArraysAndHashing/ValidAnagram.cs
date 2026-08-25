@@ -1,8 +1,8 @@
-﻿namespace Valid_Anagram
+﻿namespace Algorithms.ArraysAndHashing
 {
-    internal class Program
+    public class ValidAnagram
     {
-        public static bool IsAnagram(string s, string t)
+        public static bool Solve(string s, string t)
         {
             if (s.Length != t.Length)
                 return false;
@@ -32,13 +32,6 @@
             }
 
             return check.Count == 0;
-        }
-
-        static void Main(string[] args)
-        {
-            string s = "aab";
-            string t = "abb";
-            Console.WriteLine(IsAnagram(s, t));
         }
     }
 }

@@ -1,8 +1,8 @@
-﻿namespace Contains_Duplicate
+﻿namespace Algorithms.ArraysAndHashing
 {
-    internal class Program
+    public class ContainsDuplicate
     {
-        public static bool ContainsDuplicate(int[] nums)
+        public static bool Solve(int[] nums)
         {
             HashSet<int> seen = new();
 
@@ -13,12 +13,6 @@
                 else return true;
             }
             return false;
-        }
-
-        static void Main(string[] args)
-        {
-            int[] nums = [1, 2, 3, 1];
-            Console.WriteLine(ContainsDuplicate(nums));
         }
     }
 }
