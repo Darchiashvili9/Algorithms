@@ -1,4 +1,5 @@
 ﻿using Algorithms.ArraysAndHashing;
+using Algorithms.TwoPointers;
 
 namespace Algorithms
 {
@@ -19,6 +20,7 @@ namespace Algorithms
             #endregion
 
             #region GroupAnagrams
+            /*
             string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
             var result = GroupAnagrams.Solve(strs);
@@ -27,6 +29,15 @@ namespace Algorithms
             {
                 Console.WriteLine(string.Join(", ", group));
             }
+            */
+            #endregion
+
+            #region ValidPalindrome
+
+            string s = "A man, a plan, a canal: Panama";
+            var result = ValidPalindrome.Solve(s);
+            Console.WriteLine(result);
+            
             #endregion
         }
     }
