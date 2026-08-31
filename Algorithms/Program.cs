@@ -33,12 +33,25 @@ namespace Algorithms
             #endregion
 
             #region ValidPalindrome
-
+            /*
             string s = "A man, a plan, a canal: Panama";
             var result = ValidPalindrome.Solve(s);
             Console.WriteLine(result);
-            
+            */
             #endregion
+
+            #region Two Sum II — Input Array Is Sorted
+            /*
+            int[] numbers = [2, 7, 11, 15];
+            int[] result = TwoSumII.Solve(numbers, 9);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+            */
+            #endregion
+
+
         }
     }
 }
