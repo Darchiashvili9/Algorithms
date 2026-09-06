@@ -53,9 +53,21 @@ namespace Algorithms
 
             #region Longest Consecutive Sequence
 
+            /*
             int[] nums = [0, 3, 7, 2, 5, 8, 4, 6, 0, 1];
             var res = LongestConsecutiveSequence.Solve(nums);
             Console.WriteLine(res);
+            */
+            #endregion
+
+            #region Valid Parentheses
+
+            string s = "{[]}";
+
+            ValidParentheses.Solve(s);
+
+
+
 
             #endregion
         }
