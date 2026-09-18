@@ -1,7 +1,4 @@
-﻿using Algorithms.ArraysAndHashing;
-using Algorithms.TwoPointers;
-
-namespace Algorithms
+﻿namespace Algorithms
 {
     internal class Program
     {
@@ -62,14 +59,23 @@ namespace Algorithms
 
             #region Valid Parentheses
 
-            string s = "{[]}";
+            //string s = "{[]}";
 
-            ValidParentheses.Solve(s);
+            //ValidParentheses.Solve(s);
 
 
 
 
             #endregion
+
+
+            #region BinarySearch
+
+            int[] nums = [-1, 0, 3, 5, 9, 12];
+            var res = BinarySearch.BinarySearch.Solve(nums, 9);
+
+            #endregion
+
         }
     }
 }
