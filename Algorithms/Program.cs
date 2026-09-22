@@ -1,32 +1,37 @@
-﻿namespace Algorithms
+﻿using Algorithms.ArraysAndHashing;
+using Algorithms.BinarySearch;
+using Algorithms.TwoPointers;
+using Algorithms.SlidingWindow;
+
+namespace Algorithms
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             #region TwoSum
-            /*
-            int[] nums = { 1, 1, 2, 3 };
-            int [] indexies = TwoSum.Solve(nums, 6);
 
-            foreach (var item in indexies)
-            {
-                Console.WriteLine(item);
-            }
-            */
+            //int[] nums = { 1, 1, 2, 3 };
+            //int[] indexies = TwoSum.Solve(nums, 6);
+
+            //foreach (var item in indexies)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
             #endregion
 
             #region GroupAnagrams
-            /*
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
-            var result = GroupAnagrams.Solve(strs);
+            //string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
-            foreach (var group in result)
-            {
-                Console.WriteLine(string.Join(", ", group));
-            }
-            */
+            //var result = GroupAnagrams.Solve(strs);
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine(string.Join(", ", group));
+            //}
+
             #endregion
 
             #region ValidPalindrome
@@ -68,11 +73,17 @@
 
             #endregion
 
-
             #region BinarySearch
 
-            int[] nums = [-1, 0, 3, 5, 9, 12];
-            var res = BinarySearch.BinarySearch.Solve(nums, 9);
+            //int[] nums = [-1, 0, 3, 5, 9, 12];
+            //var res = BinarySearch.BinarySearch.Solve(nums, 9);
+
+            #endregion
+
+            #region Search Insert Position
+
+            int[] nums = [1, 3, 5, 6];
+            int pos = SearchInsertPosition.Solve(nums, 4);
 
             #endregion
 
